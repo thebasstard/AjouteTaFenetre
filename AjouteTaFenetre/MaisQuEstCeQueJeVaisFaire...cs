@@ -33,7 +33,7 @@ namespace AjouteTaFenetre
                 label1.Visible = true;
                 label1.Text = "Finie la br***ette !!!!";
                 pictureBox2.Visible = true;
-                //declenchement du son
+                //declenchement du son     
                 axWindowsMediaPlayer1.URL = "http://www.soundjay.com/misc/sounds/fail-trombone-01.mp3";
                 axWindowsMediaPlayer1.Ctlcontrols.play();
             }
